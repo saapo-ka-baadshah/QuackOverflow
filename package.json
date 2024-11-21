@@ -1,0 +1,38 @@
+{
+  "name": "quackoverflow",
+  "version": "1.0.0",
+  "description": "Where even a duck writes better code! Dive into our labyrinth of gloriously inefficient and hilariously convoluted code. Perfect for when you need a good laugh at the absurdity of over-engineering. 🦆",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && npx tsc",
+    "start": "node dist/index.js",
+    "prestart": "npm run build",
+    "watch": "npx tsc -w",
+    "prewatch": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saapo-ka-baadshah/QuackOverflow.git"
+  },
+  "keywords": [
+    "shit",
+    "code",
+    "quack",
+    "duck"
+  ],
+  "author": "Amey Mahadik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saapo-ka-baadshah/QuackOverflow/issues"
+  },
+  "homepage": "https://github.com/saapo-ka-baadshah/QuackOverflow#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
+  }
+}
